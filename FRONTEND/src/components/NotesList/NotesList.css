@@ -1,0 +1,40 @@
+.note-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.note-container h3 {
+    margin-top: 0;
+}
+
+.note-container p {
+    margin-bottom: 0;
+}
+
+.note-container button {
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.note-container button:hover {
+    background-color: #0056b3;
+}
+
+.create-note-link {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.create-note-link:hover {
+    text-decoration: underline;
+}

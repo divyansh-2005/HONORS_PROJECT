@@ -1,0 +1,16 @@
+/* AllNotesList.css */
+
+.note-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.note-container h3 {
+    margin-top: 0;
+}
+
+.note-container p {
+    margin-bottom: 0;
+}

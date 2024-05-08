@@ -1,0 +1,58 @@
+.create-note-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.create-note-container h2 {
+    margin-bottom: 20px;
+}
+
+.create-note-container form div {
+    margin-bottom: 10px;
+}
+
+.create-note-container form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.create-note-container form input[type="text"],
+.create-note-container form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.create-note-container form button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.create-note-container form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.create-note-container form button[type="submit"]:focus {
+    outline: none;
+}
+
+.create-note-container form a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.create-note-container form a:hover {
+    text-decoration: underline;
+}

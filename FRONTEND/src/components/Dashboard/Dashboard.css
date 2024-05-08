@@ -1,0 +1,33 @@
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.welcome-message {
+    margin-bottom: 20px;
+}
+
+.user-info {
+    margin-bottom: 20px;
+}
+
+.manage-notes {
+    margin-top: 20px;
+}
+
+.manage-notes li {
+    margin-bottom: 10px;
+}
+
+.manage-notes li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.manage-notes li a:hover {
+    text-decoration: underline;
+}

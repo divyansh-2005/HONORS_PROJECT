@@ -1,0 +1,47 @@
+/* src/home/HomePage.css */
+
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-wrapper {
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #4a3d81;
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.LOGO {
+  width: 112px;
+  height: 111px;
+}
+
+.nav-links {
+  margin-top: 20px;
+}
+
+.link {
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-decoration: none;
+  background-color: #7d6bc9;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.link:hover {
+  background-color: #6a5497;
+}

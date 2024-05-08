@@ -1,0 +1,52 @@
+/* src/components/NavigationBar.css */
+
+nav {
+  background-color: #4a3d81;
+  padding: 10px 20px;
+  display: flex; /* Add display flex to make items align horizontally */
+  justify-content: space-between; /* Align items to the start and end of the nav */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #f8c94b;
+}
+
+.logout-button {
+  background-color: #ff0000; /* Red background color */
+  padding: 8px 16px; /* Add padding for button */
+  border: none; /* Remove default button border */
+  border-radius: 4px; /* Add border radius for button */
+  color: #ffffff; /* Text color */
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 790px;
+}
+
+.logout-button:hover {
+  background-color: #d60000; /* Darker red on hover */
+}
