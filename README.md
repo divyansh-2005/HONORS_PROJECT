@@ -12,7 +12,9 @@ Notify is a web application for managing and organizing notes. It provides featu
 - Delete note: Authenticated users can delete their own notes.
 - Responsive design: The application is designed to be usable on both desktop and mobile devices.
 
+## Demo
 
+[Link to demo video](https://drive.google.com/file/d/1QiiwoWeZ0gHANBopnEIwfTE_6UvbfeOl/view?usp=sharing)
 
 ## Usage
 
